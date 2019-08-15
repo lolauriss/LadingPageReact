@@ -8,7 +8,7 @@ const descriptions = [
 	"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto."
 ];
 
-export const CardList = props => {
+export const Cards = props => {
 	let cardArray = descriptions.map((card, i) => {
 		return <Card key={i.toString()} description={card} />;
 	});
