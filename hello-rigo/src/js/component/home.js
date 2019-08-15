@@ -2,7 +2,7 @@ import React from "react";
 
 import { Navbar } from "./navbar.js";
 import Jumbotron from "./jumbotron.js";
-import { Cards } from "./cards.js";
+import { Card } from "./card.js";
 import { Footer } from "./footer.js";
 
 export function Home(props) {
@@ -12,7 +12,7 @@ export function Home(props) {
 
 			<div className="container">
 				<Jumbotron />
-				<Cards />
+				<Card />
 			</div>
 
 			<Footer />

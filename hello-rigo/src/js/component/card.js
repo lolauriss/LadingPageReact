@@ -1,25 +1,37 @@
 import React from "react";
-import PropType from "prop-types";
 
-export function Card(props) {
-	return (
-		<div className="col-lg-3 col-md-6 mb-4">
-			<div className="card h-100">
-				<img
-					className="card-img-top"
-					src="http://placehold.it/500x325"
-					alt=""
-				/>
-				<div className="card-body">
-					<h4 className="card-title">Card title</h4>
-					<p className="card-text">{props.description}</p>
-				</div>
-				<div className="card-footer">
-					<a href="#" className="btn btn-primary">
-						Find Out More!
-					</a>
-				</div>
-			</div>
-		</div>
-	);
+export function Card(props){
+    <div className="card" style="width: 18rem;">
+        <img src="..." className="card-img-top" alt="...">
+        <div className="card-body">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="btn btn-primary">Find Out More!</a>
+        </div>
+    </div>
+    <div className="card" style="width: 18rem;">
+        <img src="..." className="card-img-top" alt="...">
+        <div className="card-body">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="btn btn-primary">Find Out More!</a>
+        </div>
+    </div>
+    <div className="card" style="width: 18rem;">
+        <img src="..." className="card-img-top" alt="...">
+        <div className="card-body">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="btn btn-primary">Find Out More!</a>
+        </div>
+    </div>
+    <div className="card" style="width: 18rem;">
+        <img src="..." className="card-img-top" alt="...">
+        <div className="card-body">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="btn btn-primary">Find Out More!</a>
+        </div>
+    </div>
+
 }
